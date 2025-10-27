@@ -3,6 +3,9 @@
 A modern e-commerce product catalog app built with Flutter — designed as a professional portfolio project.  
 Follows **clean architecture** and **Material 3 design** principles.
 
+[![Flutter](https://img.shields.io/badge/Flutter-3.24-blue)](https://flutter.dev)
+[![License](https://img.shields.io/badge/license-MIT-green)]()
+
 ---
 
 ## 🚀 Project Overview
@@ -27,12 +30,12 @@ Later stages will include cart functionality, authentication, and backend integr
 
 ## 📂 Folder Structure
 
-lib/
+````lib/
 └── src/
 ├── core/ # shared utilities, theme, constants
 ├── features/ # feature modules (product, auth, cart)
 ├── app.dart # root widget, theme setup
-└── main.dart # entry point
+└── main.dart # entry point```
 
 ---
 
@@ -58,4 +61,4 @@ lib/
 ```bash
 flutter pub get
 flutter run
-```
+````
