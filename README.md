@@ -30,12 +30,14 @@ Later stages will include cart functionality, authentication, and backend integr
 
 ## 📂 Folder Structure
 
-````lib/
+```
+lib/
 └── src/
 ├── core/ # shared utilities, theme, constants
 ├── features/ # feature modules (product, auth, cart)
 ├── app.dart # root widget, theme setup
-└── main.dart # entry point```
+└── main.dart # entry point
+```
 
 ---
 
@@ -61,4 +63,4 @@ Later stages will include cart functionality, authentication, and backend integr
 ```bash
 flutter pub get
 flutter run
-````
+```
